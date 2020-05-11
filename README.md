@@ -7,9 +7,9 @@ offenders. The purpose of this is to determine which type of crime is more
 likely to occur during which time of the year, and which area of a borough.
 
 For this project, we used the software tool called RStudio. Using RStudio, we
-were able to preprocess the data by cleaning it and clustering. We were also
-able to analyze the dataset in terms of association rule mining using the
-apriori algorithm as well as visualize the dataset.
+were able to preprocess the data by cleaning it, clustering, and converting data 
+types. We were also able to analyze the dataset in terms of association rule 
+mining using the apriori algorithm as well as visualize the dataset.
 
 Through this we will be able to determine which areas in NYC are likely to
 have a particular crime happen. This will allow us to know which location may
