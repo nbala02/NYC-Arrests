@@ -1,4 +1,4 @@
-# NYCArrests
+# NYC-Arrests
 
 In our project, we will be focusing on a dataset called NYPD arrest. Our goal is
 to analyze the arrest dataset to determine the correlation between the type
