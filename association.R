@@ -1,4 +1,4 @@
-#Association Rule Mining File 4
+#File 4: Association Rule Mining
 
 #--------------------------------- Install Packages & Load Libraries ----------------------------------#
 #Install the packages needed for association rule mining
