@@ -19,11 +19,10 @@ options(max.print = .Machine$integer.max)
 
 #Run the apriori algorithm for first analysis
 ruleSet1 <- apriori(preprocessed, parameter = list(support = 0.01, confidence = 0.4))
-#Get the performance summary and number of rules (We originally have 712 Rules)
+#Get the performance summary and number of rules
 summary(ruleSet1)
 
-
-#Inspect the rules produced by the algorithm and 235 are the number of non redundant rules
+#Inspect the rules produced by the algorithm
 inspect(head(ruleSet1, 1302))
 
 #Write the rules of analysis into a csv file
@@ -33,11 +32,11 @@ write(ruleSet1, file = "Analysis1.csv")
 
 #Run the apriori algorithm for first analysis
 ruleSet2 <- apriori(preprocessed, parameter = list(support = 0.001, confidence = 0.3, target = "rules"))
-#Get the performance summary and number of rules (We originally have 8833 Rules)
+#Get the performance summary and number of rules
 summary(ruleSet2)
 
       
-#Inspect the rules produced by the algorithm and 2824 are the number of non redundant rules
+#Inspect the rules produced by the algorithm 
 inspect(head(ruleSet2, 22530 ))
 
 #Write the rules of analysis into a csv file
@@ -47,11 +46,10 @@ write(ruleSet2, file = "Analysis2.csv")
 
 #Run the apriori algorithm for first analysis
 ruleSet3 <- apriori(preprocessed, parameter = list(support = 0.002, confidence = 0.5, target = "rules"))
-#Get the performance summary and number of rules (We originally have 3082 Rules)
+#Get the performance summary and number of rules
 summary(ruleSet3)
 
-
-#Inspect the rules produced by the algorithm and 1023 are the number of non redundant rules
+#Inspect the rules produced by the algorithm
 inspect(head(ruleSet3, 6523))
 
 #Write the rules of analysis into a csv file
